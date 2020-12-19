@@ -83,20 +83,17 @@ ship "Warbird"
 			"hull damage" 500
 			"hit force" 1500
 	outfits
-		"Particle Cannon" 2
-		"Meteor Missile Launcher" 2
-		"Meteor Missile" 60
-		"Quad Blaster Turret"
-		"Anti-Missile Turret"
+		"Heavy Laser" 6
+		"Barrage Turret" 3
+		"Javelin" 1500
 		
-		"RT-I Radiothermal"
-		"nGVF-AA Fuel Cell"
+		"Fission Reactor"
 		"LP144a Battery Pack"
-		"D41-HY Shield Generator"
-		"Laser Rifle" 3
+		"D67-TM Shield Generator"
+		"Fragmentation Grenades" 4
 		
 		"X3700 Ion Thruster"
-		"X3200 Ion Steering"
+		"X4200 Ion Steering"
 		"Hyperdrive"
 		
 	gun -58 25
