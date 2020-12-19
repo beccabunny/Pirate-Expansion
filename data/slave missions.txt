@@ -352,7 +352,54 @@ mission "Slave Rebellion 5 (Less Crew)"
 		not "Slave Rebellion 3 (Less Crew): offered"
 		not "Slave Rebellion 4 (Less Crew): offered"
 	on offer
-		require "Slave" 15
+		require "Slave" 10
+		clear "rebellion chance"
+		conversation
+			`Soon after you land, you hear some gunshots coming from near the armoury. The slaves rebelled and took the weapons on board! Some of them, which claim to be their leaders, is asking to speak with you to discuss of their liberation.`
+			choice
+				`	"Never!"`
+					goto killed
+				`	(Allow them to come in the bridge to talk.)`
+			`	A handful of slaves walk in, surrounded by your crew with their guns ready to fire. After a brief discussion, it is clear that they are not willing to come to terms: they request you to bring them to <destination> by <date> and free them all.`
+			choice
+				`	(Accept their requests.)`
+					accept
+				`	(Now that they are trapped here, order your crew to open fire.)`
+					goto killed
+			label killed
+			`	A violent battle breaks out, with your regular crew doing its best to fight the rioting slaves. Suddenly, a group of slaves armed with laser pistols breaches into the bridge and starts shooting. A shot hits you in the head, and in a few instants you lose consciousness. You die.`
+				die
+	on complete
+		conversation
+			`As you land, the leaders of the slaves approach you and say, "Thank you for bringing us here, but your purpose hasn't finished yet. Go to the outfitter and free us; if you do that, you will never see us again. Don't, and prepare to die."`
+		clear "Slave Rebellion 5 (Less Crew): offered"
+	on fail
+		conversation
+			`Today the time your slaves had given you to free them and reach <planet> has finished, and a violent battle between your crew and the slaves has broken out. Suddenly, a group of slaves armed with laser pistols breaches into the bridge and starts shooting. A shot hits you in the head, and in a few instants you lose consciousness. You die.`
+				die`
+
+mission "Slave Rebellion 6 (Less Crew)"
+	name "Free all your slaves"
+	description "Go to <destination> before <date> and free all your slaves by selling them from the outfitter."
+	deadline
+	deadline 2
+	clearance
+	landing
+	source
+		not attributes "uninhabited"
+	destination
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+		attributes "outfitter"
+	to offer
+		"flagship crew" <= 3
+		random < "rebellion chance" / 10
+		not "Slave Rebellion 1 (Less Crew): offered"
+		not "Slave Rebellion 2 (Less Crew): offered"
+		not "Slave Rebellion 3 (Less Crew): offered"
+		not "Slave Rebellion 4 (Less Crew): offered"
+		not "Slave Rebellion 5 (Less Crew): offered"
+	on offer
+		require "Slave"
 		clear "rebellion chance"
 		conversation
 			`Soon after you land, you hear some gunshots coming from near the armoury. The slaves rebelled and took the weapons on board! Some of them, which claim to be their leaders, is asking to speak with you to discuss of their liberation.`
@@ -401,13 +448,43 @@ mission "Slave Freedom"
 			`As you depart, a violent battle between your crew and the slaves breaks out. Suddenly, a group of slaves armed with laser pistols breaches into the bridge and starts shooting. A shot hits you in the head, and in a few instants you lose consciousness. You die.`
 				die
 
+mission "Rebellion Chance 0"
+	repeat
+	invisible
+	landing
+	to offer
+		"flagship crew" ==  1
+	on offer
+		require "Slave" 3
+		"rebellion chance"+= 20
+
+mission "Rebellion Chance 0B"
+	repeat
+	invisible
+	landing
+	to offer
+		"flagship crew" ==  1
+	on offer
+		require "Slave" 10
+		"rebellion chance"+= 15
+
+mission "Rebellion Chance 0C"
+	repeat
+	invisible
+	landing
+	to offer
+		"flagship crew" ==  1
+	on offer
+		require "Slave" 50
+		"rebellion chance"+= 25
+
 mission "Rebellion Chance 1"
 	repeat
 	invisible
 	landing
 	on offer
 		require "Slave" 5
-		"rebellion chance"++
+		"rebellion chance"+= 5
 
 mission "Rebellion Chance 2"
 	repeat
@@ -417,7 +494,7 @@ mission "Rebellion Chance 2"
 		"flagship crew" <=  50
 	on offer
 		require "Slave" 40
-		"rebellion chance"+= 4
+		"rebellion chance"+= 15
 
 mission "Rebellion Chance 3"
 	repeat
@@ -427,7 +504,7 @@ mission "Rebellion Chance 3"
 		"flagship crew" <=  120
 	on offer
 		require "Slave" 80
-		"rebellion chance"+= 6
+		"rebellion chance"+= 25
 
 mission "Rebellion Chance 4"
 	repeat
@@ -437,7 +514,7 @@ mission "Rebellion Chance 4"
 		"flagship crew" <=  200
 	on offer
 		require "Slave" 150
-		"rebellion chance"+= 7
+		"rebellion chance"+= 30
 
 mission "Rebellion Clear"
 	repeat
