@@ -17,7 +17,7 @@ outfit "Active Radar Jammer"
 	"outfit space" -10
 	"energy consumption" 1
 	"radar jamming" 15
-	description "Developed as a more effective alternative to Lovelance's design, this radar jammer requires a small amount of energy to function. It is often seen in pirate warships, where combat is frequent and missiles a constant treat."
+	description "Developed as a more effective alternative to Lovelace's design, this radar jammer requires a small amount of energy to function. It is often seen in pirate warships, where combat is frequent and missiles a constant treat."
 
 outfit "Small Interference Emitter"
 	category "Systems"

@@ -57,7 +57,7 @@ ship "Scavenger"
 	explode "large explosion" 35
 	explode "huge explosion" 20
 	"final explode" "final explosion large"
-	description "The Scavenger is an ancient ship: developed hundreds of years ago to transport radioactive materials across human space, it had lost impostance with the introduction of generalised and better armed haulers like the Bulk Freighter and the Behemoth. It came back in use as a pirate freighter after the discovery that its radiological shields and internal structure were very efficient at hiding its cargo, interfering with incoming scans enough to block almost all of them."
+	description "The Scavenger is an ancient ship: developed hundreds of years ago to transport radioactive materials across human space, it had lost importance with the introduction of generalised and better armed haulers like the Bulk Freighter and the Behemoth. It came back in use as a pirate freighter after the discovery that its radiological shields and internal structure were very efficient at hiding its cargo, interfering with incoming scans enough to block almost all of them."
 
 ship "Warbird"
 	sprite "ship/warbird"
