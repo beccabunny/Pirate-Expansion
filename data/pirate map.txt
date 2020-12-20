@@ -762,7 +762,7 @@ planet Albion
 	attributes pirate "north pirate" north
 	landscape land/city3
 	description `Albion is the closest thing to a manufacturing world that explicitly supports pirate activities. Here, thanks to a mass use of slavery to make production faster and less expensive many kinds of starships are constructed, including modifications of existing models to make them more suited for illegal activities.`
-	description `	If this planet was captured by the Republic many of the pirate activities in the north would be obstaculated; luckily, Albion is so far from any Navy base that just reaching it would be almost impossible.`
+	description `	If this planet was captured by the Republic many of the pirate activities in the north would be disrupted; luckily, Albion is so far from any Navy base that just reaching it would be almost impossible.`
 	spaceport `Unlike most pirate planets, where the spaceport is merely composed of a few (probably stolen) pads, on Albion it is not any less impressive than the ones of the best Republic planets: massive metallic hangars, modern buildings, tall skyscrapers... you almost have the impression of being on Earth, even if you know that the whole planet has less than 100 times its population.`
 	spaceport `	A few kilometers from the spaceport there are the largest factories of the planet, producing most of the outfits you have seen used by the spaceships in the area.`
 	shipyard "Core Pirates"
@@ -788,7 +788,7 @@ planet Avalanche
 	landscape land/land14
 	description `Almost out of its star's habitable zone, Avalanche was settled only recently and hasn't seen much activity ever since: aside from a few dozen families that inhabit a small village, the planet is mostly used as a safe depot for illegal contraband.`
 	description `	There are probably thousands of crates left on this planet, hidden just under the surface and impossible to find for anyone who doesn't know exactly where to look.`
-	spaceport `The only spaceport on Avalance, albeit a small one, is placed near the ridge of a mountain and is composed of a few metallic pads placed in an exagonal pattern. Even if the installment is very recent, the structure has already been partially ruined by the ice; you wonder if these pads were actually meant for such extreme temperatures, or if they were intended to be brought elsewhere but taken here instead.`
+	spaceport `The only spaceport on Avalanche, albeit a small one, is placed near the ridge of a mountain and is composed of a few metallic pads placed in an hexagonal pattern. Even if the installment is very recent, the structure has already been partially ruined by the ice; you wonder if these pads were actually meant for such extreme temperatures, or if they were intended to be brought elsewhere but taken here instead.`
 	"required reputation" -50
 	security 0
 	tribute 250
@@ -810,7 +810,7 @@ planet "Liberty Port"
 	attributes pirate "north pirate" north station
 	landscape "land/asteroid landing 1"
 	description `This complex was originally a successful mining station located near Alnitak when, about a century ago, a pirate group organised what would become one of the most famous hijackings of the recent times: after gaining control of the structure, they were able to install a specifically adapted hyperdrive and fly the asteroid in one piece inside the section of space they control.`
-	description `	After reaching its current orbit the asteroid was transformed into a quite large trading hub, and although some of the sections are quite lacking in mantainance it still has a working outfitter and a breathable artificial atmosphere.`
+	description `	After reaching its current orbit the asteroid was transformed into a quite large trading hub, and although some of the sections are quite lacking in maintenance it still has a working outfitter and a breathable artificial atmosphere.`
 	spaceport `Compared to other pirate structures you have seen, this one seems to be relatively stable; but all across the hull you can see tiny, badly repaired holes that were probably caused by stray firearms shots. The mining section of the settlement seems to have stopped working, maybe because the asteroid had run out of useful resources or even just because it was too damaged.`
 	spaceport `	Either way, whoever is leading the place seems to have given up repairing it, as there are spaceships parked all over it and some... entrepreneurs even seem to have attached their own modules there, claiming to sell the same stuff as the main market but for a better price.`
 	outfitter "Ammo North"
@@ -826,7 +826,7 @@ planet "Liberty Port"
 planet Tartarus
 	attributes pirate "north pirate" north
 	landscape land/land55
-	description `Originally meant to be closer to a pirate hideout than to a real colony, in the last centuries Tartarus' population has seen a substantial and continous growth that today reaches over fifty million inhabitants scattered across its surface. Until very recently it was under the control of a single warlord; but, after her death, a war of succession began between the most powerful families of the planet which hasn't resolved yet.`
+	description `Originally meant to be closer to a pirate hideout than to a real colony, in the last centuries Tartarus' population has seen a substantial and continuous growth that today reaches over fifty million inhabitants scattered across its surface. Until very recently it was under the control of a single warlord; but, after her death, a war of succession began between the most powerful families of the planet which hasn't resolved yet.`
 	description `	Although most skirmishes involved lone ships or small fleets, some very large battles were fought to try gaining control of Tartarus, with spectacular and disastrous results.`
 	spaceport `Tartarus' main spaceport is located in its southern hemisphere, in the middle of a large and almost lifeless island. You are unsure if the area is foggy because of the planet's climate or of the air pollution, but the large factories that occupy most of the island's mainland make you lean towards the latter.`
 	spaceport `	Most of the space near the coast is instead occupied by various kinds of buildings, from ruined cement warehouses to massive and gaudy mansions.`

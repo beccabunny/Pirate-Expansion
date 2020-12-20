@@ -27,7 +27,7 @@ outfit "Small Interference Emitter"
 	"outfit space" -6
 	"scan interference" 1
 	"energy consumption" 0.9
-	description "This interference emitter has similar capabilities to the interference plating, utilising outfit space more efficently at the cost of a constant energy consumption. One of these is enough to halve the chance of a successful scan."
+	description "This interference emitter has similar capabilities to the interference plating, utilising outfit space more efficiently at the cost of a constant energy consumption. One of these is enough to halve the chance of a successful scan."
 
 outfit "Large Interference Emitter"
 	category "Systems"
@@ -37,7 +37,7 @@ outfit "Large Interference Emitter"
 	"outfit space" -14
 	"scan interference" 4
 	"energy consumption" 1.9
-	description "The larger version of the interference emitter is quite powerful, capable of stopping roughly four out of five scan attemps alone although with the same downside of its smaller brother. Often the preferred choice of smugglers, perfect for passing through high security sectors with illegal cargo."
+	description "The larger version of the interference emitter is quite powerful, capable of stopping roughly four out of five scan attempts alone although with the same downside of its smaller brother. Often the preferred choice of smugglers, perfect for passing through high security sectors with illegal cargo."
 
 outfit "Javelin Turret"
 	category "Turrets"
