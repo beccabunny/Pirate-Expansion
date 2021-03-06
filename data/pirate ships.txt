@@ -115,5 +115,5 @@ ship "Warbird"
 	explode "medium explosion" 24
 	explode "large explosion" 8
 	"final explode" "final explosion medium"
-	description "One of the many Firebird-based designs proposed in the last centuries, the Warbird was a popular vessel that qualifies as a middle ground between medium and high warships. Mayor shipyards have stopped producing it decades ago, but some pirates keep creating them for their plundering capabilities."
+	description "One of the many Firebird-based designs proposed in the last centuries, the Warbird was a popular vessel that qualifies as a middle ground between medium and heavy warships. Major shipyards have stopped producing it decades ago, but some pirates keep creating them for their plundering capabilities."
 
